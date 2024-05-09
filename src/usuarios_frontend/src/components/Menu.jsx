@@ -66,7 +66,7 @@ const Menu = () => {
 
   
   return (
-        <BrowserRouter>
+        // <BrowserRouter>
             <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         
         { principal ? ( 
@@ -114,15 +114,16 @@ const Menu = () => {
         )}
        
     </nav>
-    <Routes>
+  )
+    {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/usuarios" element={<Users />} />
         <Route path="/nuevo-usuario" element={<UserCreate />} />
     </Routes>
 
-    </BrowserRouter>
+    </BrowserRouter> */}
 
-  )
+
 }
 
 
@@ -131,7 +132,7 @@ const client = createClient({
       usuarios_backend,
     },
     providers: [
-      new InternetIdentity({ providerUrl: "http://bw4dl-smaaa-aaaaa-qaacq-cai.localhost:4943" })
+      new InternetIdentity({ providerUrl: "http://bkyz2-fmaaa-aaaaa-qaaaq.localhost:4943" })
     ],
     globalProviderConfig: {
       /*
