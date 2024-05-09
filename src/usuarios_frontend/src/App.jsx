@@ -10,18 +10,11 @@ import {BrowserRouter, Route, Link, Routes} from 'react-router-dom';
 
 function App(){
     return(
-        <BrowserRouter>
         <div className='contanier' >
             <Menu />
         </div>
             
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/usuarios" element={<Users />} />
-    <Route path="/nuevo-usuario" element={<UserCreate />} />
-    <Route path="/Prueba" element={<Prueba />} />
-    </Routes>
-</BrowserRouter>
+
     )
 }
 

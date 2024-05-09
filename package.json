@@ -15,5 +15,8 @@
   "workspaces": [
     "src/usuarios_backend",
     "src/usuarios_frontend"
-  ]
+  ],
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
